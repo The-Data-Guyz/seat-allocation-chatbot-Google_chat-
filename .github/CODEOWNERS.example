@@ -1,0 +1,6 @@
+# Rename this file to CODEOWNERS after replacing the placeholder team.
+* @YOUR-ORGANISATION/YOUR-TEAM
+
+/src/ @YOUR-ORGANISATION/YOUR-TEAM
+/docs/ @YOUR-ORGANISATION/YOUR-TEAM
+/.github/ @YOUR-ORGANISATION/YOUR-TEAM

@@ -1,0 +1,22 @@
+{
+  "name": "seat-allocation-chatbot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Google Chat seat allocation and FIFO queue workflow built with Google Apps Script and Google Sheets.",
+  "scripts": {
+    "login": "clasp login",
+    "status": "clasp status",
+    "pull": "clasp pull",
+    "push": "clasp push",
+    "push:force": "clasp push --force",
+    "open": "clasp open",
+    "deployments": "clasp deployments",
+    "validate": "node scripts/validate.mjs"
+  },
+  "devDependencies": {
+    "@google/clasp": "3.3.0"
+  },
+  "engines": {
+    "node": ">=20 <23"
+  }
+}

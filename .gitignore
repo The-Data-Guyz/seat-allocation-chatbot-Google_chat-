@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# clasp authentication and project binding
+.clasp.json
+.clasprc.json
+
+# Environment/local configuration
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and generated artifacts
+*.log
+coverage/
+dist/
+*.zip
